@@ -1,0 +1,28 @@
+/* Arquivo para aula de Desenvolvimento para Internet - Unipar 2025*/
+/*redet CSS: importante para zerar todos os estilos ja aplicados*/ 
+{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+/*variaveis */
+/*posso salvar na rvariaves , configuraçoes que podemser usadas globalmente no CSS */ 
+
+:root {
+    --primary-color: purple;
+    --font-size:12px;
+    /*Componentes*/ 
+    /*O que sao componentes: Botoes, Formularios, input's, select's, etc...*/
+}
+
+button{
+        background-color: var(--primary-color);
+        font-size: var(--font-size);
+        color: azure;
+        padding: 2%;
+        height: 10%;
+        width: 50%;
+        min-height: 100px;
+        max-width: 500px;
+    } 
+
